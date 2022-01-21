@@ -1,0 +1,53 @@
+/*20020511*/
+
+.btn a:link,
+.btn a:visited,
+input[type=submit] {
+    color: #000000;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: #aaaaaa solid 1px;
+    background-color: white;
+}
+
+.btn a:hover,
+.btn a:active,
+input[type=submit]:hover {
+    background-color: #d4d4d4;
+    color: white;
+}
+
+input[type=text] {
+    color: #393E46;
+    padding: 5px 8px;
+    border: #aaaaaa solid 1px;
+    margin: 10px;
+}
+
+body {
+    margin: 50px;
+}
+
+div.image {
+    margin: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    float: left;
+    width: 180px;
+}
+
+div.image img {
+    width: 100%;
+    height: auto;
+}
+div.image:hover {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+
+
+div.imageTitle {
+    padding: 5px;
+    text-align: center;
+}
